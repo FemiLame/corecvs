@@ -1,0 +1,20 @@
+name: CMake_MAC
+
+on: 
+  push:
+    branches: 
+      - apimenov_mac
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+    
+    steps:      
+    - uses: actions/checkout@v1
+    - name: Print Machine Status
+      run: |
+            cat /proc/cpuinfo
+    - name: Install generic prerequisites
+      run: |
+           brew install libjpeg
