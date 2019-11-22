@@ -18,10 +18,11 @@ jobs:
     - name: Install generic prerequisites
       run: |
            brew install libjpeg libpng 
-           brew install libtbb
-           brew install libavcodec
-           brew install libavutil
-           brew install libavformat
-           brew install libswscale
+           brew install tbb
+           # brew install libavcodec
+           # brew install libavutil
+           # brew install libavformat
+           # brew install libswscale
+           brew install ffmpeg
            brew install libopenblas
            brew install liblapacke
