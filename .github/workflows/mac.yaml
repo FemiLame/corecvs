@@ -24,5 +24,6 @@ jobs:
            # brew install libavformat
            # brew install libswscale
            brew install ffmpeg
-           brew install libopenblas
-           brew install liblapacke
+           #brew install libopenblas
+           #brew install liblapacke
+           brew install qt
